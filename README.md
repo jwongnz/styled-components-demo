@@ -1,5 +1,22 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This is a quick and dirty demo, originally created to demonstrate some of the differences between the styled-components and typestyle libraries.
+
+Comment out only the <Demo X/> component in the App.tsx file for the demo you want to run. This will ensure only necessary code is built and you'll be easily able to inspect what is going on in the style tag in the head.
+
+## Demo 1
+
+- Dynamic styling
+- Debugging (Change the styled-components import to styled-components/macro - this will activate the babel debugging plugin)
+
+## Demo 2
+
+- Deduping / class consolidation - showing that styled components does attempt to do this
+
+## Demo 3
+
+- CSS variables
+
 ## Available Scripts
 
 In the project directory, you can run:
